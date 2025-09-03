@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Formation Sonorisation Live - Misterglokin</title>
+<style>
+/* === Global === */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #1abc9c, #00251e);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+/* === Container Glassmorphism === */
+.container {
+    background: rgba(255,255,255,0.1);
+    border-radius: 20px;
+    padding: 50px 40px;
+    text-align: center;
+    width: 500px;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.25);
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* === Title === */
+h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #ecf0f1;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+/* === Paragraphs === */
+p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+/* === Price === */
+.price {
+    font-size: 28px;
+    font-weight: bold;
+    color: #d80000;
+    margin-bottom: 20px;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.4);
+}
+
+/* === Button Glassmorphism === */
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    background: rgba(46, 204, 113, 0.6);
+    border-radius: 15px;
+    text-decoration: none;
+    transition: 0.3s;
+    box-shadow: 0 4px 30px rgba(46,204,113,0.5);
+    backdrop-filter: blur(5px);
+}
+.button:hover {
+    background: rgba(46, 204, 113, 0.9);
+    box-shadow: 0 6px 40px rgba(46,204,113,0.6);
+}
+
+/* === Animations === */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px);}
+    to { opacity: 1; transform: translateY(0);}
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>📘 PDF Misterglokin</h1>
+    <p>Découvrez nos livres et guides PDF à seulement <span class="price">3$ ou 8.500 Fc</span> chez Misterglokin !</p>
+    <p>Apprenez toutes les techniques pour réussir vos enregistrements Live ou et sonorisation en direct ou pour vous développer dans le monde informatique.</p>
+    <a href="PDF.html" class="button">Voir les PDF disponibles</a>
+</div>
+</body>
+</html>
